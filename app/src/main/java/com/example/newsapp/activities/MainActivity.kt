@@ -1,5 +1,6 @@
 package com.example.newsapp.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,6 +17,7 @@ import com.example.newsapp.models.Article
 import com.example.newsapp.models.News
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.row_layout.view.*
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
@@ -56,4 +58,5 @@ class MainActivity : AppCompatActivity() {
         )
         requestData.add(request)
     }
+
 }

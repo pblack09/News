@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
         android:text="Top Headlines"
         android:textAlignment="center"
-        android:paddingBottom="8dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="26sp" />
 
@@ -20,7 +20,6 @@
         android:layout_height="4dp"
         android:layout_alignBottom="@id/headline"
         android:background="@color/colorPrimaryDark" />
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
