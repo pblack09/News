@@ -1,3 +1,6 @@
 # News
 
-<img src="app/src/main/res/drawable/main.png" width="300">
+* Uses a recycler view to display news articles with a brief description on the home page.
+* Each row is clickable and starts a new activity with more information about the article.
+
+<img src="news_preview.gif" width="300">
